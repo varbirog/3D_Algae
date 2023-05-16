@@ -3,6 +3,8 @@
 
 http://freshwater-ecology.com:3838/3D_Algae/
 
+https://shiny.freshwater-ecology.com/3D_Algae/
+
 Abstract
 
 1. Morphology and spatial dimensions of microalgal units (cells or colonies) are among of the most relevant traits of planktic algae, which have a pronounced impact on their basic functional properties, like access to nutrients or light, the velocity of sinking or tolerance to grazing. Although the shape of algae can be approximated by geometric forms and thus, their volume and surface area can be calculated, this approach cannot be validated and might have uncertainties especially in the case of complicated forms.
