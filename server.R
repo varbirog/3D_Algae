@@ -136,7 +136,7 @@ shinyServer(function(input, output) {
 				
 				
 				V=round(V,3) 
-				lab=paste("<h4>","Volume (µm", "<sup>",3,"</sup>):","<b>",V,"<b>", "</h4>")
+                                lab=paste("<h4>","Volume (µm", "<sup>",3,"</sup>):","<b>",V,"</b>", "</h4>")
 				
 				HTML(paste(lab))
 					
@@ -183,7 +183,7 @@ shinyServer(function(input, output) {
         
         
         A=round(A,3)
-        lab=paste("<h4>","Surface (µm", "<sup>",2,"</sup>):","<b>",A,"<b>", "</h4>")
+        lab=paste("<h4>","Surface (µm", "<sup>",2,"</sup>):","<b>",A,"</b>", "</h4>")
 		HTML(paste(lab))
     } 
     })
@@ -227,7 +227,7 @@ shinyServer(function(input, output) {
             VA=(V/0.523)^(1/3)
             VA=round(VA,3)
             
-			lab=paste("<h4> Diameter for spherical equivalent Volume (µm): ","<b>",round(VA,4),"<b>","</h4>")
+                        lab=paste("<h4> Diameter for spherical equivalent Volume (µm): ","<b>",round(VA,4),"</b>","</h4>")
 		HTML(paste(lab))
         } 
     })
@@ -274,7 +274,7 @@ shinyServer(function(input, output) {
             SA=(A/03.14)^(1/2)
             SA=round(SA,3)
             
-			lab=paste("<h4>","Diameter for spherical equivalent Surface (µm)","<b>",round(SA,4),"<b>","</h4>")
+                        lab=paste("<h4>","Diameter for spherical equivalent Surface (µm)","<b>",round(SA,4),"</b>","</h4>")
 		HTML(paste(lab))
             
         } 
